@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "BMF",
+  "short_name": "BMF",
+  "version": "com.x2.bmf",
+  "description": "BMF Soundboard",
+  "author": "X2Labs Development Team",
+  "icons": [],
+  "start_url": "index.html"
+}

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.x2.bmf" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>BMF</name>
+    <description>
+        BMF Soundboard
+    </description>
+    <author email="britton@x2labs.com" href="http://www.x2labs.com">
+        X2Labs Development Team
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+		<icon src="Resources/logo.png" density="ldpi" />
+		<icon src="Resources/logo.png" density="mdpi" />
+		<icon src="Resources/logo.png" density="hdpi" />
+		<icon src="Resources/logo.png" density="xhdpi" />
+		
+		<splash src="Resources/screen.png" density="land-hdpi"/>
+		<splash src="Resources/screen.png" density="land-ldpi"/>
+		<splash src="Resources/screen.png" density="land-mdpi"/>
+		<splash src="Resources/screen.png" density="land-xhdpi"/>
+
+		<splash src="Resources/screen.png" density="port-hdpi"/>
+		<splash src="Resources/screen.png" density="port-ldpi"/>
+		<splash src="Resources/screen.png" density="port-mdpi"/>
+		<splash src="Resources/screen.png" density="port-xhdpi"/>
+		
+		<preference name="SplashScreenSpinnerColor" value="white" />
+		<preference name="SplashScreenBackgroundColor" value="0x00000000"/>
+    </platform>
+	<platform name="windows">
+		<preference name="windows-target-version" value="10.0" />
+		<preference name="windows-phone-target-version" value="10.0" />
+    <preference name="WindowsDefaultUriPrefix" value="ms-appx://" />
+</platform>
+</widget>
